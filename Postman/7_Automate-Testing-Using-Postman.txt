@@ -1,0 +1,6 @@
+Automate Testing Using Postman
+Di materi sebelumnya Anda sudah belajar bagaimana cara menguji API menggunakan Postman secara manual. Ketahuilah bahwa dengan Postman Anda juga bisa melakukan uji secara otomatis, sehingga tak perlu lagi melihat respons dari server secara manual untuk memastikan responnya sesuai dengan harapan. Pengujian otomatis di Postman menggunakan kode JavaScript, serupa dengan unit dan integration testing yang sudah Anda pelajari di kelas Belajar Dasar Pemrograman JavaScript.
+
+Melalui testing otomatis ini, kita bisa menguji nilai dari status code, properti header, hingga body respons. Pengujian otomatis akan “pass” (berhasil) ketika semua variabel yang diuji sesuai ekspektasi. Bila ada salah satu yang tidak sesuai, maka pengujian akan “failed” (gagal).
+
+Materi kali ini, kita akan mencoba menguji API secara otomatis. Namun sebelum itu, sebaiknya Anda mengenal dulu fitur Collection dan Environment yang ada di Postman karena keduanya akan digunakan dalam pengujian.

@@ -1,0 +1,9 @@
+Membangun Web Server menggunakan Node.js secara Native
+
+Menyiapkan Project
+Sebelum membuat Web Server, buatlah proyek Node.js terlebih dahulu. Silakan buat folder baru di dalam C -> javascript-projects (Windows) atau home -> javascript-project (Linux dan Mac) dengan nama “nodejs-web-server”. Setelah itu, buka folder tersebut menggunakan VSCode.
+
+Buka Terminal dan tuliskan perintah:
+
+npm init --y
+

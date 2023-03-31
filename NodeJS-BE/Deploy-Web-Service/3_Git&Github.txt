@@ -1,0 +1,14 @@
+Mengunggah Proyek Web Server ke Github
+Di latihan sebelumnya Anda sudah berhasil mengoperasikan EC2 instance menggunakan SSH. Namun kali ini kita tinggalkan sejenak Amazon EC2.
+
+Sebelum kita bermain lebih jauh di EC2 instance yang sudah dibuat. Kita perlu mengunggah proyek Web Server ke Internet agar nantinya dapat diunduh dan dijalankan oleh EC2 instance.
+
+Dalam proses tersebut, kita akan memanfaatkan teknologi Git dan Github. Banyak developer yang sudah familier dengan dua hal ini. Namun bila Anda baru mendengarnya, jangan khawatir. Kita akan mulai dari awal.
+
+Git merupakan sebuah sistem yang membantu developer dalam melakukan versioning atau source code management terhadap aplikasi yang dikembangkan. Melalui Git, kita dapat menelusuri perubahan kode, siapa yang melakukan perubahannya, hingga mengelola code versioning (branching). Tools ini kerap digunakan sebagai tools berkolaborasi antar developer.
+
+Tapi tunggu, jangan terlalu pusing mendalami tentang git sekarang. Kita tidak akan menggunakan seluruh fungsi yang ada di git. Kita akan fokus untuk mengunggah proyek (dalam git proyek dikenal dengan istilah repository) kita ke internet menggunakan git ini. Jika Anda tertarik mengenal git secara lebih dalam, silakan akses kelas Belajar Dasar Git dengan GitHub yang kami sediakan.
+
+Ketahuilah bahwa sistem git ini hanya berjalan di lokal komputer Anda saja. Agar repository git dapat diakses di mana saja, oleh siapa saja, dan komputer mana saja (termasuk EC2), kita perlu menyimpan repository-nya di internet. Nah, di sinilah peran dari GitHub. Ia merupakan salah satu vendor yang bergerak di bidang source code hosting menggunakan teknologi git.
+
+Jadi, ayo kita mulai pasang Git dan inisialisasi repository pada proyek web server kita.

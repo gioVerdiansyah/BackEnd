@@ -1,0 +1,42 @@
+Skenario Pengujian Otomatis
+Kita akan melakukan pengujian dengan skenario yang sama seperti yang dilakukan dengan cara manual. Berikut skenarionya:
+
+# Skenario 1: Adding Notes (Memasukkan catatan baru)
+    * Pastikan response memiliki status code 201.
+    * Pastikan header response Content-Type memiliki nilai application/json.
+    * Pastikan body response adalah object.
+    * Pastikan body response memiliki properti dan nilai yang sesuai.
+    * Pastikan data pada response body memiliki noteId dan nilainya tidak kosong.
+
+# Skenario 2: Getting All Notes (Mendapatkan seluruh catatan)
+    * Pastikan response memiliki status code 200.
+    * Pastikan header response Content-Type memiliki nilai application/json.
+    * Pastikan body response adalah object.
+    * Pastikan body response memiliki properti dan nilai atau tipe data yang sesuai.
+    * Pastikan data pada response body memiliki array notes dan terdapat minimal 1 item di dalamnya.
+
+# Skenario 3: Getting Specified Note (Mendapatkan catatan secara spesifik)
+    * Pastikan response memiliki status code 200.
+    * Pastikan header response Content-Type memiliki nilai application/json.
+    * Pastikan body response merupakan object.
+    * Pastikan body response memiliki properti dan nilai atau tipe data yang sesuai.
+    * Pastikan data pada response body memiliki properti note yang merupakan sebuah objek.
+    * Pastikan objek note di dalam data memiliki properti id, title, body, dan tags  dengan nilai yang sesuai.
+
+# Skenario 4: Update Note (Memperbarui data catatan)
+    * Pastikan response memiliki status code 200.
+    * Pastikan header response Content-Type memiliki nilai application/json.
+    * Pastikan body response adalah object.
+    * Pastikan body response memiliki properti dan nilai yang sesuai.
+    * Ketika mengakses catatan yang diperbaharui
+        - Pastikan catatan yang diperbarui memiliki nilai terbaru.
+
+# Skenario 5: Delete Note (Menghapus catatan)
+    * Pastikan response memiliki status code 200.
+    * Pastikan header response Content-Type memiliki nilai application/json.
+    * Pastikan body response adalah object.
+    * Pastikan body response memiliki properti dan nilai yang sesuai.
+    * Ketika mengakses catatan yang dihapus
+        - Pastikan catatan yang dihapus tidak ditemukan.
+
+Yuk kita mulai buat pengujian otomatisnya.

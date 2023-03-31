@@ -1,0 +1,12 @@
+Identity and Access Management (IAM)
+Kita sudah berhasil membuat akun AWS. Namun, tahukah Anda bahwa akun tersebut merupakan akun yang memiliki kekuatan super atau root user? Yang artinya, akun tersebut dapat mengakses seluruh resource atau service di AWS secara penuh tanpa ada batasan apa pun. 
+
+Root user terbentuk saat pertama kali kita membuat akun AWS. Tentu, kredensial yang digunakan adalah kredensial yang kita masukkan ketika mendaftar akun AWS.
+
+Ingatlah! Root user itu memiliki akses yang mutlak dan tidak dapat dibatasi. Oleh karena itu, AWS sangat merekomendasikan kita agar tidak menggunakan root user atau kredensialnya untuk interaksi sehari-hari. Lantas, apa fungsi dari akun yang sudah kita buat sebelumnya?
+
+Praktik terbaiknya, root user hanya digunakan satu kali saja. Gunakan user ini untuk membuat IAM (Identity and Access Management) user atau akun lain yang lebih rendah haknya. Tindakan ini diperlukan guna menghindari Anda atau tim Anda mengakses resource yang tidak atau belum dibutuhkan, bahkan tidak boleh diakses.
+
+AWS Services sangatlah luas, Anda sudah mengenal itu pada kelas Cloud Practitioner Essentials kami bukan? Sebagai developer, mungkin kita hanya perlu berinteraksi dengan beberapa service saja. Misalnya, Amazon EC2, Amazon RDS, atau Amazon ElastiCache.
+
+Bahkan sebagai developer pemula, service yang disebutkan di atas masih terlalu banyak untuk kebutuhan kita sekarang. Ingat! Salah satu prinsip yang ada di AWS adalah “principle of least privilege”. Maksudnya, berikanlah akses sesuai kebutuhan saat itu juga. Kebutuhan apa yang kita perlukan saat ini? Yap! Amazon EC2. Jadi, ayo kita buat IAM users yang memiliki akses Amazon EC2 Instance.

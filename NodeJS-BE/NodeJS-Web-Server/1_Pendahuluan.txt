@@ -1,0 +1,13 @@
+Membangun Web Service menggunakan Node.js
+Selamat! Anda sudah belajar dasar dari Node.js. Kini, Anda telah memiliki bekal cukup untuk melangkah ke materi selanjutnya.
+
+Seperti yang sudah Anda pahami, karena hadirnya Node.js, JavaScript tak lagi dikekang oleh browser. Node.js membuat JavaScript bebas dijalankan di mana saja. JavaScript menjadi bahasa pemrograman server side layaknya Java, PHP, C#, atau bahasa lainnya. Sekarang Anda bisa membuat apa saja menggunakan JavaScript! Termasuk aplikasi yang akan kita buat saat ini. 
+
+Yeay! Pada modul ini kita akan membuat web service menggunakan JavaScript, hal yang sulit dilakukan tanpa adanya Node.js. Karena itu, pastikan Anda mengikuti materi ini dengan baik yah! Hingga pada akhir modul ini Anda dapat:
+
+Membangun Web Service menggunakan Node.js secara native.
+Mengenal Node.js HTTP framework.
+Membangun Web Service menggunakan Hapi.js (Node.js HTTP framework).
+Membangun RESTful API sederhana.
+
+Sudah tidak sabar ingin memulai membuat web service? yuk lanjut ke materi selanjutnya yah.

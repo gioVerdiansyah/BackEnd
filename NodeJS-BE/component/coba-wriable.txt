@@ -1,0 +1,3 @@
+Ini teks baris pertama
+Ini teks baris kedua
+Akhir dari teks!
